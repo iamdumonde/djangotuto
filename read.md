@@ -132,3 +132,9 @@ True
 # Let's delete one of the choices. Use delete() for that.
 >>> c = q.choice_set.filter(choice_text__startswith="Just hacking")
 >>> c.delete()
+
+++++++=================================
+Nous avons d’abord besoin de créer un utilisateur qui peut se connecter au site d’administration. Lancez la commande suivante :
+
+/ 
+$ python manage.py createsuperuser
